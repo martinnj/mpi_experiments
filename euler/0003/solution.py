@@ -17,6 +17,7 @@ def is_prime(n) :
         return False
 
     i = 5
+    # TODO: This can be distributed on the cluster as well! :O
     while(i * i <= n) :
         if (n % i == 0 or n % (i + 2) == 0) :
             return False
